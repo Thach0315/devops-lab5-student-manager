@@ -18,6 +18,12 @@ class AddStudentTests(unittest.TestCase):
         self.assertEqual(len(students), 1)
         self.assertEqual(students[0].name, "Nguyen Van A")
 
+    def test_rejects_blank_student_name(self):
+        students = []
+        with self.assertRaises(ValueError):
+            add_student(students, "SV002", "   ", 21, "K20")
+        self.assertEqual(students, [])
+
 
 if __name__ == "__main__":
     unittest.main()
