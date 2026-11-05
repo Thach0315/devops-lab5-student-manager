@@ -2,7 +2,7 @@
 
 Ứng dụng quản lý sinh viên — DevOps Lab 5: Git Flow & Code Review.
 
-**Version 1.0.0** — Nhóm An – Hoàng Thạch An.
+**Version 1.0.0** — Nhóm An – Hoàng Thạch An (cập nhật nhánh A).
 
 ## Tính năng
 
