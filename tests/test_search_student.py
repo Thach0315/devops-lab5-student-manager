@@ -18,6 +18,9 @@ class SearchStudentTests(unittest.TestCase):
         self.assertEqual(search_student(self.students, "sv001"), self.students)
         self.assertEqual(search_student(self.students, "missing"), [])
 
+    def test_empty_keyword_returns_all_students(self):
+        self.assertEqual(search_student(self.students, ""), self.students)
+
 
 if __name__ == "__main__":
     unittest.main()
