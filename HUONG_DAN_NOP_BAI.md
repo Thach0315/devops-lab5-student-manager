@@ -37,7 +37,7 @@
 
 ## Đóng gói ZIP
 
-Đứng tại thư mục dự án, tạo ZIP với tên theo mẫu `Lab5_NhomX_HoTenA_HoTenB.zip`. ZIP cần có `README.md`, `.gitignore`, `src/`, và `screenshots/` với ảnh minh chứng thật. Không cần đưa thư mục `.git/` vào ZIP trừ khi giảng viên yêu cầu.
+Đứng tại thư mục dự án, sau khi đã thêm đủ ảnh thật, tạo ZIP với tên theo mẫu `Lab5_NhomX_HoTenA_HoTenB.zip`. ZIP cần có `README.md`, `.gitignore`, `src/`, và `screenshots/` với ảnh minh chứng thật. Xóa `screenshots/README.md` khỏi gói nếu muốn thư mục chỉ có ảnh. Không cần đưa thư mục `.git/` vào ZIP trừ khi giảng viên yêu cầu.
 
 ```bash
 zip -r Lab5_NhomX_HoTenA_HoTenB.zip README.md .gitignore src screenshots
