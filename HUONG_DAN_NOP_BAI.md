@@ -31,8 +31,8 @@
 
 | Tên ảnh | Nội dung cần thấy | Trạng thái |
 |---|---|---|
-| `01-git-log.png` | `git log --oneline --graph --all` | Cần chụp terminal thật |
-| `02-git-branch.png` | `git branch -a` | Cần chụp terminal thật |
+| `01-git-log.png` | Lịch sử commit trên GitHub | Đã chụp GitHub commit history; nếu yêu cầu đúng lệnh CLI thì thay bằng ảnh terminal `git log --oneline --graph --all` |
+| `02-git-branch.png` | Danh sách nhánh | Đã chụp GitHub Branches; nếu yêu cầu đúng lệnh CLI thì thay bằng ảnh terminal `git branch -a` |
 | `03-pr-add-student.png` | PR add-student trên GitHub | Đã chụp PR #2 (GitHub đã đánh số #2) |
 | `04-pr-search-student.png` | PR search-student trên GitHub | Đã chụp PR #1 (GitHub đã đánh số #1) |
 | `05-code-review.png` | Code Review comment | Chờ ThachRC review |
