@@ -7,12 +7,12 @@
 - PR #1 (search): https://github.com/Thach0315/devops-lab5-student-manager/pull/1
 - PR #2 (add): https://github.com/Thach0315/devops-lab5-student-manager/pull/2
 
-Đã gửi lời mời collaborator quyền ghi cho **ThachRC**; lời mời đang chờ chấp nhận. Sau khi chấp nhận, gán ThachRC làm reviewer cho hai PR rồi review/approve trước khi merge. Không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
+**ThachRC đã chấp nhận** lời mời collaborator quyền ghi và đã được gán reviewer cho hai PR. Tại lần kiểm tra gần nhất, chưa có review nào được gửi; cần review/approve trước khi merge. Không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
 
 ## Trước khi nộp
 
 1. Đã ghi Dev A: Hoàng Thạch An và Dev B: ThachRC trong `README.md`.
-2. ThachRC chấp nhận lời mời collaborator tại GitHub → Invitations.
+2. ThachRC đã chấp nhận lời mời collaborator.
 3. ThachRC review, để lại nhận xét, approve hai PR; sau đó tác giả merge.
 4. Các nhánh chính và hai nhánh PR đã push. Nếu cần đồng bộ lại sau khi thêm commit:
 
