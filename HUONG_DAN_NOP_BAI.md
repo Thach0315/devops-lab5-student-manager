@@ -2,18 +2,18 @@
 
 ## Trạng thái hiện tại
 
-Đã tạo repo GitHub công khai: https://github.com/Thach0315/devops-lab5-student-manager; đã push các nhánh chính và mở hai PR vào `develop`:
+Đã tạo repo GitHub công khai: https://github.com/Thach0315/devops-lab5-student-manager. Hai PR vào `develop` đã được ThachRC review/approve và merge:
 
 - PR #1 (search): https://github.com/Thach0315/devops-lab5-student-manager/pull/1
 - PR #2 (add): https://github.com/Thach0315/devops-lab5-student-manager/pull/2
 
-**ThachRC đã chấp nhận** lời mời collaborator quyền ghi và đã được gán reviewer cho hai PR. Tại lần kiểm tra gần nhất, chưa có review nào được gửi; cần review/approve trước khi merge. Không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
+ThachRC đã chấp nhận lời mời collaborator quyền ghi. PR #1 và #2 đã được approve, merge vào `develop`; sau đó `develop` đã được merge vào `main`. Kiểm thử tự động đạt 6/6. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
 
 ## Trước khi nộp
 
 1. Đã ghi Dev A: Hoàng Thạch An và Dev B: ThachRC trong `README.md`.
 2. ThachRC đã chấp nhận lời mời collaborator.
-3. ThachRC review, để lại nhận xét, approve hai PR; sau đó tác giả merge.
+3. Hai PR đã được ThachRC review/approve và merge.
 4. Các nhánh chính và hai nhánh PR đã push. Nếu cần đồng bộ lại sau khi thêm commit:
 
    ```bash
@@ -23,9 +23,9 @@
    git push origin feature/add-student feature/search-student
    ```
 
-5. Bài thực hành conflict đã được tạo và resolve trong lịch sử Git cục bộ; phần GitHub remote chưa có minh chứng conflict. Thực hiện lại bằng nhánh/PR thứ hai sau khi PR đầu tiên đã merge nếu cần trình diễn conflict trực tiếp trên GitHub.
-6. Sau khi các PR hoàn tất, cập nhật `main` từ `develop` theo hướng dẫn lab. Kiểm tra `python3 src/main.py` và `git status`.
-7. Đã chụp các ảnh GitHub có thể tự động vào `screenshots/`. Bổ sung ảnh code review, conflict, conflict resolved và output chương trình thật; không thay bằng ảnh giả.
+5. Bài thực hành conflict đã được tạo và resolve trong lịch sử Git cục bộ; còn thiếu ảnh chụp màn hình VS Code cho lúc conflict và sau khi resolve.
+6. Đã merge `develop` vào `main`; ứng dụng chạy và 6/6 unit tests đạt.
+7. Đã chụp ảnh GitHub cho lịch sử, nhánh, hai PR merged và code review. Còn thiếu ảnh conflict, conflict resolved và output chương trình thật.
 
 ## Danh sách minh chứng
 
@@ -33,9 +33,9 @@
 |---|---|---|
 | `01-git-log.png` | Lịch sử commit trên GitHub | Đã chụp GitHub commit history; nếu yêu cầu đúng lệnh CLI thì thay bằng ảnh terminal `git log --oneline --graph --all` |
 | `02-git-branch.png` | Danh sách nhánh | Đã chụp GitHub Branches; nếu yêu cầu đúng lệnh CLI thì thay bằng ảnh terminal `git branch -a` |
-| `03-pr-add-student.png` | PR add-student trên GitHub | Đã chụp PR #2 (GitHub đã đánh số #2) |
-| `04-pr-search-student.png` | PR search-student trên GitHub | Đã chụp PR #1 (GitHub đã đánh số #1) |
-| `05-code-review.png` | Code Review comment | Chờ ThachRC review |
+| `03-pr-add-student.png` | PR add-student trên GitHub | Đã chụp PR #2 sau khi merged |
+| `04-pr-search-student.png` | PR search-student trên GitHub | Đã chụp PR #1 sau khi merged |
+| `05-code-review.png` | Code Review comment | Đã chụp review/approve của ThachRC |
 | `06-merge-conflict.png` | Conflict trong VS Code | Cần chụp màn hình conflict thật |
 | `07-conflict-resolved.png` | Sau khi resolve conflict | Cần chụp màn hình kết quả thật |
 | `08-final-output.png` | `python src/main.py` output | Cần chụp terminal thật |
@@ -69,8 +69,8 @@ Upload ZIP lên LMS trước deadline. Mở lại ZIP để chắc chắn đủ 
 ## Checklist cuối
 
 - [x] Ghi Dev B là ThachRC trong README.
-- [ ] Repo GitHub có main và develop; code đã push.
-- [ ] Hai PR đã được review, approve và merged.
+- [x] Repo GitHub có main và develop; code đã push.
+- [x] Hai PR đã được review, approve và merged.
 - [ ] Đã thực hành và chụp minh chứng merge conflict.
 - [ ] Đủ 8 ảnh `.png` đúng tên trong `screenshots/`.
 - [ ] Chương trình chạy thành công; ZIP mở được và đã upload lên LMS.
