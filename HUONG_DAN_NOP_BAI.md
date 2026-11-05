@@ -7,7 +7,7 @@
 - PR #1 (search): https://github.com/Thach0315/devops-lab5-student-manager/pull/1
 - PR #2 (add): https://github.com/Thach0315/devops-lab5-student-manager/pull/2
 
-Đã gửi lời mời collaborator quyền ghi cho **ThachRC** và yêu cầu ThachRC review cả hai PR. Lời mời cần được ThachRC chấp nhận; PR cần được review/approve trước khi merge. Không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
+Đã gửi lời mời collaborator quyền ghi cho **ThachRC**; lời mời đang chờ chấp nhận. Sau khi chấp nhận, gán ThachRC làm reviewer cho hai PR rồi review/approve trước khi merge. Không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
 
 ## Trước khi nộp
 
