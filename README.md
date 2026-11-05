@@ -2,7 +2,7 @@
 
 Ứng dụng quản lý sinh viên — DevOps Lab 5: Git Flow & Code Review.
 
-**Version 1.0.0** — Nhóm An – Hoàng Thạch An (cập nhật nhánh B).
+**Version 1.0.0** — Nhóm An – Hoàng Thạch An.
 
 ## Tính năng
 
@@ -18,11 +18,18 @@ Yêu cầu Python 3.10 trở lên; không cần cài thư viện ngoài.
 python3 src/main.py
 ```
 
+Chạy kiểm thử tự động:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
 ## Cấu trúc
 
 ```text
 src/main.py       # Ứng dụng và chức năng thêm/tìm kiếm
 src/student.py    # Student model
+tests/            # Unit tests cho thêm và tìm kiếm sinh viên
 screenshots/      # Ảnh minh chứng cho bài nộp
 ```
 
