@@ -2,7 +2,7 @@
 
 Ứng dụng quản lý sinh viên — DevOps Lab 5: Git Flow & Code Review.
 
-**Version 1.0.0** — Nhóm: _điền tên nhóm và hai thành viên trước khi nộp_.
+**Version 1.0.0** — Nhóm An – Hoàng Thạch An.
 
 ## Tính năng
 
@@ -34,6 +34,6 @@ Thay URL trên bằng đường dẫn repo thật sau khi tạo trên GitHub.
 
 ## Tác giả
 
-- Dev A: _điền họ tên_
+- Dev A: Hoàng Thạch An
 - Dev B: _điền họ tên_
 - DevOps Course — Lab 5
