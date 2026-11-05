@@ -35,9 +35,7 @@ screenshots/      # Ảnh minh chứng cho bài nộp
 
 ## GitHub
 
-Repo dự kiến: `https://github.com/<GITHUB_USERNAME>/devops-lab5-student-manager`
-
-Thay URL trên bằng đường dẫn repo thật sau khi tạo trên GitHub.
+Repo: [Thach0315/devops-lab5-student-manager](https://github.com/Thach0315/devops-lab5-student-manager)
 
 ## Tác giả
 

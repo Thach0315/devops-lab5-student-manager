@@ -2,38 +2,43 @@
 
 ## Trạng thái hiện tại
 
-Đã chuẩn bị ứng dụng Python, `.gitignore`, README và repo/lịch sử Git cục bộ. Các bước sau **không thể tự làm nếu chưa có tài khoản và thao tác của hai thành viên**: tạo repo GitHub, mời collaborator, tạo/duyệt PR và chụp ảnh màn hình thật. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
+Đã tạo repo GitHub công khai: https://github.com/Thach0315/devops-lab5-student-manager; đã push các nhánh chính và mở hai PR vào `develop`:
+
+- PR #1 (search): https://github.com/Thach0315/devops-lab5-student-manager/pull/1
+- PR #2 (add): https://github.com/Thach0315/devops-lab5-student-manager/pull/2
+
+PR đang mở và chờ review. Vì cả hai PR do cùng tài khoản tác giả tạo, cần thành viên thứ hai được mời vào repo để review/approve; không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
 
 ## Trước khi nộp
 
-1. Điền tên nhóm, họ tên Dev A/Dev B và URL repo thật trong `README.md`.
-2. Một thành viên tạo repo public `devops-lab5-student-manager` trên GitHub (không tạo README/.gitignore ở GitHub), thêm thành viên còn lại làm collaborator và chấp nhận lời mời.
-3. Thêm remote rồi push các nhánh cần thiết:
+1. Điền họ tên Dev B trong `README.md` (Dev A: Hoàng Thạch An; repo: tài khoản Thach0315).
+2. Thêm thành viên còn lại làm collaborator tại GitHub → Settings → Collaborators và để họ chấp nhận lời mời.
+3. Hai PR đã mở sẵn; thành viên còn lại review, để lại nhận xét, approve. Tác giả merge PR sau khi review.
+4. Các nhánh chính và hai nhánh PR đã push. Nếu cần đồng bộ lại sau khi thêm commit:
 
    ```bash
-   git remote add origin https://github.com/<USERNAME>/devops-lab5-student-manager.git
+   git remote -v
    git push -u origin main
    git push -u origin develop
    git push origin feature/add-student feature/search-student
    ```
 
-4. Trên GitHub tạo **2 PR riêng** từ `feature/add-student` và `feature/search-student` vào `develop`. Thành viên kia review, để lại nhận xét, approve; tác giả merge. PR phải hiển thị trạng thái **Merged**.
-5. Thực hiện bài thực hành conflict giữa hai nhánh README trên GitHub (hoặc trong repo clone riêng của thành viên thứ hai), giải quyết và ghi nhận kết quả. Lịch sử local đã có nội dung tích hợp; cần ảnh thật chứng minh quy trình conflict.
-6. Sau khi tích hợp, cập nhật `main` từ `develop` nếu repo remote chưa phản ánh bản hoàn chỉnh. Kiểm tra `python3 src/main.py` và `git status`.
-7. Chụp ảnh thật vào `screenshots/` theo danh sách dưới đây. Ảnh PR/review phải chụp trên GitHub; không thay bằng ảnh giả hoặc ảnh mẫu.
+5. Bài thực hành conflict đã được tạo và resolve trong lịch sử Git cục bộ; phần GitHub remote chưa có minh chứng conflict. Thực hiện lại bằng nhánh/PR thứ hai sau khi PR đầu tiên đã merge nếu cần trình diễn conflict trực tiếp trên GitHub.
+6. Sau khi các PR hoàn tất, cập nhật `main` từ `develop` theo hướng dẫn lab. Kiểm tra `python3 src/main.py` và `git status`.
+7. Đã chụp các ảnh GitHub có thể tự động vào `screenshots/`. Bổ sung ảnh code review, conflict, conflict resolved và output chương trình thật; không thay bằng ảnh giả.
 
 ## Danh sách minh chứng
 
 | Tên ảnh | Nội dung cần thấy | Trạng thái |
 |---|---|---|
-| `01-git-log.png` | `git log --oneline --graph --all` | Chụp sau khi hoàn tất lịch sử |
-| `02-git-branch.png` | `git branch -a` có main, develop, feature | Chụp sau khi push |
-| `03-pr-add-student.png` | PR add-student đã merged vào develop | Chưa chụp — cần GitHub |
-| `04-pr-search-student.png` | PR search-student đã merged vào develop | Chưa chụp — cần GitHub |
-| `05-code-review.png` | Review/comment và trạng thái approve | Chưa chụp — cần hai thành viên |
-| `06-merge-conflict.png` | Conflict marker hoặc GitHub báo conflict | Chưa chụp — cần thực hành |
-| `07-conflict-resolved.png` | Bản README sau resolve và trạng thái sạch | Chụp sau khi resolve |
-| `08-final-output.png` | Terminal chạy `python3 src/main.py` thành công | Chụp sau khi chạy |
+| `01-github-commit-history.jpg` | Lịch sử commit GitHub trên main | Đã chụp; cần chụp thêm terminal `git log --oneline --graph --all` nếu rubric yêu cầu chính xác lệnh này |
+| `02-github-branches.jpg` | Danh sách nhánh GitHub | Đã chụp; có main/develop/feature |
+| `03-pr-add-student.jpg` | PR add-student trên GitHub | Đã chụp; PR #2 đang mở, chưa merged |
+| `04-pr-search-student.jpg` | PR search-student trên GitHub | Đã chụp; PR #1 đang mở, chưa merged |
+| `05-code-review.png` | Review/comment và trạng thái approve | Chưa có — cần thành viên thứ hai |
+| `06-merge-conflict.png` | Conflict marker hoặc GitHub báo conflict | Chưa có ảnh — lịch sử conflict hiện tại là local |
+| `07-conflict-resolved.png` | Bản README sau resolve và trạng thái sạch | Chưa có ảnh minh chứng |
+| `08-final-output.png` | Terminal chạy `python3 src/main.py` thành công | Chưa có ảnh minh chứng |
 
 ## Đóng gói ZIP
 
@@ -48,7 +53,7 @@ Upload ZIP lên LMS trước deadline. Mở lại ZIP để chắc chắn đủ 
 
 ## Checklist cuối
 
-- [ ] Thay tên nhóm/thành viên/URL placeholder trong README.
+- [ ] Điền tên Dev B trong README.
 - [ ] Repo GitHub có main và develop; code đã push.
 - [ ] Hai PR đã được review, approve và merged.
 - [ ] Đã thực hành và chụp minh chứng merge conflict.
