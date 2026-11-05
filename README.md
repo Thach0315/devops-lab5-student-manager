@@ -2,7 +2,7 @@
 
 Ứng dụng quản lý sinh viên — DevOps Lab 5: Git Flow & Code Review.
 
-**Version 1.0.0** — Nhóm An – Hoàng Thạch An.
+**Version 1.0.0** — Nhóm An: Hoàng Thạch An (Dev A) & ThachRC (Dev B).
 
 ## Tính năng
 
@@ -40,5 +40,5 @@ Repo: [Thach0315/devops-lab5-student-manager](https://github.com/Thach0315/devop
 ## Tác giả
 
 - Dev A: Hoàng Thạch An
-- Dev B: _điền họ tên_
+- Dev B: ThachRC
 - DevOps Course — Lab 5

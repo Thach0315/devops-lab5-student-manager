@@ -7,13 +7,13 @@
 - PR #1 (search): https://github.com/Thach0315/devops-lab5-student-manager/pull/1
 - PR #2 (add): https://github.com/Thach0315/devops-lab5-student-manager/pull/2
 
-PR đang mở và chờ review. Vì cả hai PR do cùng tài khoản tác giả tạo, cần thành viên thứ hai được mời vào repo để review/approve; không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
+Đã gửi lời mời collaborator quyền ghi cho **ThachRC** và yêu cầu ThachRC review cả hai PR. Lời mời cần được ThachRC chấp nhận; PR cần được review/approve trước khi merge. Không tự duyệt PR của chính mình. Không đưa token/mật khẩu vào mã nguồn hoặc ZIP.
 
 ## Trước khi nộp
 
-1. Điền họ tên Dev B trong `README.md` (Dev A: Hoàng Thạch An; repo: tài khoản Thach0315).
-2. Thêm thành viên còn lại làm collaborator tại GitHub → Settings → Collaborators và để họ chấp nhận lời mời.
-3. Hai PR đã mở sẵn; thành viên còn lại review, để lại nhận xét, approve. Tác giả merge PR sau khi review.
+1. Đã ghi Dev A: Hoàng Thạch An và Dev B: ThachRC trong `README.md`.
+2. ThachRC chấp nhận lời mời collaborator tại GitHub → Invitations.
+3. ThachRC review, để lại nhận xét, approve hai PR; sau đó tác giả merge.
 4. Các nhánh chính và hai nhánh PR đã push. Nếu cần đồng bộ lại sau khi thêm commit:
 
    ```bash
@@ -31,31 +31,46 @@ PR đang mở và chờ review. Vì cả hai PR do cùng tài khoản tác giả
 
 | Tên ảnh | Nội dung cần thấy | Trạng thái |
 |---|---|---|
-| `01-github-commit-history.jpg` | Lịch sử commit GitHub trên main | Đã chụp; cần chụp thêm terminal `git log --oneline --graph --all` nếu rubric yêu cầu chính xác lệnh này |
-| `02-github-branches.jpg` | Danh sách nhánh GitHub | Đã chụp; có main/develop/feature |
-| `03-pr-add-student.jpg` | PR add-student trên GitHub | Đã chụp; PR #2 đang mở, chưa merged |
-| `04-pr-search-student.jpg` | PR search-student trên GitHub | Đã chụp; PR #1 đang mở, chưa merged |
-| `05-code-review.png` | Review/comment và trạng thái approve | Chưa có — cần thành viên thứ hai |
-| `06-merge-conflict.png` | Conflict marker hoặc GitHub báo conflict | Chưa có ảnh — lịch sử conflict hiện tại là local |
-| `07-conflict-resolved.png` | Bản README sau resolve và trạng thái sạch | Chưa có ảnh minh chứng |
-| `08-final-output.png` | Terminal chạy `python3 src/main.py` thành công | Chưa có ảnh minh chứng |
+| `01-git-log.png` | `git log --oneline --graph --all` | Cần chụp terminal thật |
+| `02-git-branch.png` | `git branch -a` | Cần chụp terminal thật |
+| `03-pr-add-student.png` | PR add-student trên GitHub | Đã chụp PR #2 (GitHub đã đánh số #2) |
+| `04-pr-search-student.png` | PR search-student trên GitHub | Đã chụp PR #1 (GitHub đã đánh số #1) |
+| `05-code-review.png` | Code Review comment | Chờ ThachRC review |
+| `06-merge-conflict.png` | Conflict trong VS Code | Cần chụp màn hình conflict thật |
+| `07-conflict-resolved.png` | Sau khi resolve conflict | Cần chụp màn hình kết quả thật |
+| `08-final-output.png` | `python src/main.py` output | Cần chụp terminal thật |
 
 ## Đóng gói ZIP
 
-Đứng tại thư mục dự án, sau khi đã thêm đủ ảnh thật, tạo ZIP với tên theo mẫu `Lab5_NhomX_HoTenA_HoTenB.zip`. ZIP cần có `README.md`, `.gitignore`, `src/`, và `screenshots/` với ảnh minh chứng thật. Xóa `screenshots/README.md` khỏi gói nếu muốn thư mục chỉ có ảnh. Không cần đưa thư mục `.git/` vào ZIP trừ khi giảng viên yêu cầu.
+Đứng tại thư mục dự án, sau khi đủ 8 ảnh, tạo ZIP đúng mẫu `Lab5_NhomX_HoTenA_HoTenB.zip`. Theo file hướng dẫn, ZIP gồm `README.md`, `.gitignore` và `screenshots/` chứa đúng 8 ảnh dưới đây. Ví dụ tên theo nhóm hiện tại: `Lab5_NhomAn_HoangThachAn_ThachRC.zip`.
+
+```text
+Lab5_NhomAn_HoangThachAn_ThachRC.zip
+├── README.md
+├── .gitignore
+└── screenshots/
+    ├── 01-git-log.png
+    ├── 02-git-branch.png
+    ├── 03-pr-add-student.png
+    ├── 04-pr-search-student.png
+    ├── 05-code-review.png
+    ├── 06-merge-conflict.png
+    ├── 07-conflict-resolved.png
+    └── 08-final-output.png
+```
 
 ```bash
-zip -r Lab5_NhomX_HoTenA_HoTenB.zip README.md .gitignore src screenshots
-unzip -l Lab5_NhomX_HoTenA_HoTenB.zip
+zip -r Lab5_NhomAn_HoangThachAn_ThachRC.zip README.md .gitignore screenshots/01-git-log.png screenshots/02-git-branch.png screenshots/03-pr-add-student.png screenshots/04-pr-search-student.png screenshots/05-code-review.png screenshots/06-merge-conflict.png screenshots/07-conflict-resolved.png screenshots/08-final-output.png
+unzip -l Lab5_NhomAn_HoangThachAn_ThachRC.zip
 ```
 
 Upload ZIP lên LMS trước deadline. Mở lại ZIP để chắc chắn đủ file và ảnh trước khi nộp.
 
 ## Checklist cuối
 
-- [ ] Điền tên Dev B trong README.
+- [x] Ghi Dev B là ThachRC trong README.
 - [ ] Repo GitHub có main và develop; code đã push.
 - [ ] Hai PR đã được review, approve và merged.
 - [ ] Đã thực hành và chụp minh chứng merge conflict.
-- [ ] Đủ 8 ảnh trong `screenshots/`.
+- [ ] Đủ 8 ảnh `.png` đúng tên trong `screenshots/`.
 - [ ] Chương trình chạy thành công; ZIP mở được và đã upload lên LMS.
